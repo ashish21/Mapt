@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.watch.project.ReportActivity" >
+
+    <item android:id="@+id/action_report"
+        android:icon="@drawable/red_flag"
+        android:showAsAction="ifRoom|withText"
+        android:title="Report"
+        />
+    <item android:id="@+id/action_fetch"
+        android:icon="@drawable/icon_radar"
+        android:showAsAction="ifRoom|withText"
+        android:title="Scan"/>
+</menu>

@@ -1,0 +1,64 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.0.3'
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.0.1'
+    compile 'com.android.support:appcompat-v7:19.0.1'
+    compile 'com.google.android.gms:play-services:3.+'
+    compile 'com.androidmapsextensions:android-maps-extensions:2.1.+'
+    compile 'com.google.maps.android:android-maps-utils:0.2.+'
+    compile 'com.google.apis:google-api-services-storage:v1beta2-rev41-1.17.0-rc'
+    compile files('lib/google-api-client-android-1.17.0-rc.jar')
+    compile files('lib/google-api-client-appengine-1.17.0-rc.jar')
+    compile files('lib/google-api-client-gson-1.17.0-rc.jar')
+    compile files('lib/google-api-client-jackson2-1.17.0-rc.jar')
+    compile files('lib/google-api-client-java6-1.17.0-rc.jar')
+    compile files('lib/google-api-client-protobuf-1.17.0-rc.jar')
+    compile files('lib/google-api-client-servlet-1.17.0-rc.jar')
+    compile files('lib/google-api-client-xml-1.17.0-rc.jar')
+    compile files('lib/google-http-client-android-1.17.0-rc.jar')
+    compile files('lib/google-http-client-appengine-1.17.0-rc.jar')
+    compile files('lib/google-http-client-gson-1.17.0-rc.jar')
+    compile files('lib/google-http-client-jackson-1.17.0-rc.jar')
+    compile files('lib/google-http-client-jackson2-1.17.0-rc.jar')
+    compile files('lib/google-http-client-jdo-1.17.0-rc.jar')
+    compile files('lib/google-http-client-protobuf-1.17.0-rc.jar')
+    compile files('lib/gson-2.1.jar')
+    compile files('lib/guava-16.0.jar')
+    compile files('lib/httpcore-4.0.1.jar')
+    compile files('lib/jackson-core-2.1.3.jar')
+    compile files('lib/jackson-core-asl-1.9.11.jar')
+    compile files('lib/jdo2-api-2.3-eb.jar')
+    compile files('lib/jetty-6.1.26.jar')
+    compile files('lib/jetty-util-6.1.26.jar')
+    compile files('lib/jsr305-1.3.9.jar')
+    compile files('lib/protobuf-java-2.4.1.jar')
+    compile files('lib/transaction-api-1.1.jar')
+    compile files('lib/xpp3-1.1.4c.jar')
+    compile files('lib/microsoft-translator-java-api-0.6.2-jar-with-dependencies.jar')
+    compile files('lib/project-commentidsendpoint-v1-1.17.0-rc-SNAPSHOT.jar')
+    compile files('lib/project-commentsendpoint-v1-1.17.0-rc-SNAPSHOT.jar')
+    compile files('lib/project-deviceinfoendpoint-v1-1.17.0-rc-SNAPSHOT.jar')
+    compile files('lib/project-messageEndpoint-v1-1.17.0-rc-SNAPSHOT.jar')
+    compile files('lib/project-reportsendpoint-v1-1.17.0-rc-SNAPSHOT.jar')
+    compile files('lib/joda-time-2.3.jar')
+    compile files('lib/appengine-gcs-client.jar')
+}

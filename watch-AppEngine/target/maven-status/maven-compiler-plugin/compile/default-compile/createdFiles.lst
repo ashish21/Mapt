@@ -1,0 +1,11 @@
+com/watch/project/EMF.class
+com/watch/project/CommentIds.class
+com/watch/project/DeviceInfo.class
+com/watch/project/MessageEndpoint.class
+com/watch/project/Reports.class
+com/watch/project/CommentIdsEndpoint.class
+com/watch/project/ReportsEndpoint.class
+com/watch/project/CommentsEndpoint.class
+com/watch/project/Comments.class
+com/watch/project/DeviceInfoEndpoint.class
+com/watch/project/MessageData.class

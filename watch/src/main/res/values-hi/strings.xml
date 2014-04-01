@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">पड़ोस वॉच</string>
+    <string name="hello_world">दुनिया नमस्कार!</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="drawer_open">ओपन नेविगेशन दराज</string>
+    <string name="drawer_close">बंद नेविगेशन दराज</string>
+    <string name="action_websearch">वेब खोज</string>
+    <string name="app_not_available">खेद है, कोई वेब ब्राउज़र उपलब्ध नहीं है</string>
+    <string name="title_activity_report">रिपोर्ट</string>
+    <string name="title_section1">पड़ोस का अन्वेषण</string>
+    <string name="title_section2">FAQ</string>
+    <string name="title_section3">App टूर</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_main_activity2">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="ok">हां</string>
+    <string name="cancel">नहीं</string>
+    <string name="editHint">कुछ विवरण दर्ज</string>
+    <string name="dialogText">विवरण दर्ज</string>
+    <string name="buttonText">प्रस्तुत करना</string>
+
+</resources>
